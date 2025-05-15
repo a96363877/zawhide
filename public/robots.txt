@@ -1,0 +1,23 @@
+# Disallow all robots from accessing the site
+User-agent: *
+Disallow: /
+
+# Specifically block Google's crawler
+User-agent: Googlebot
+Disallow: /
+
+# Block GPTBot (OpenAI's crawler)
+User-agent: GPTBot
+Disallow: /
+
+# Block Bingbot
+User-agent: Bingbot
+Disallow: /
+
+# Block Baiduspider
+User-agent: Baiduspider
+Disallow: /
+
+# Block Yandex
+User-agent: Yandexbot
+Disallow: /
