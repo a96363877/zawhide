@@ -5,7 +5,7 @@ export default function HomePage() {
   return (
     <div className="max-w-md mx-auto bg-gradient-to-b from-white to-gray-50 min-h-screen p-5" dir="rtl">
       <div className="flex items-center mb-6">
-        <h1 className="text-2xl font-bold text-[#2d1a45]">زين - الصفحة الرئيسية</h1>
+        <h1 className="text-2xl font-bold text-[#2d1a45]"> - الصفحة الرئيسية</h1>
       </div>
 
       <div className="bg-white rounded-lg shadow-sm p-6 mb-6">
@@ -27,7 +27,7 @@ export default function HomePage() {
             </div>
           </Link>
 
-          <Link href="/zain-payment" className="block">
+          <Link href="/zaim-payment" className="block">
             <div className="p-4 border border-gray-200 rounded-lg hover:border-[#d13c8c] hover:bg-pink-50/30 transition-all">
               <div className="flex items-center">
                 <div className="bg-[#d13c8c]/10 p-3 rounded-full mr-3">
@@ -45,7 +45,7 @@ export default function HomePage() {
       </div>
 
       <div className="text-center text-sm text-gray-500 mt-8">
-        <p>© {new Date().getFullYear()} Zain. جميع الحقوق محفوظة</p>
+        <p>© {new Date().getFullYear()} zaim. جميع الحقوق محفوظة</p>
       </div>
     </div>
   )

@@ -39,7 +39,7 @@ export default function AlternativeView() {
         </div>
 
         <div className="flex items-center">
-          <img src="/next.svg" alt="Zain Logo" className="h-12 ml-2" />
+          <img src="/next.svg" alt="zaim Logo" className="h-12 ml-2" />
           <Menu className="text-white hover:text-gray-200 transition-colors cursor-pointer" size={24} />
         </div>
       </header>
@@ -154,7 +154,7 @@ export default function AlternativeView() {
               </svg>
               <div>
                 <p className="font-medium">البريد الإلكتروني</p>
-                <p className="text-gray-600">info@zain.com</p>
+                <p className="text-gray-600">info@zaim.com</p>
               </div>
             </div>
 
@@ -189,7 +189,7 @@ export default function AlternativeView() {
 
         {/* Footer */}
         <div className="text-center text-sm text-gray-500 mt-8 mb-4">
-          <p>© {new Date().getFullYear()} Zain. جميع الحقوق محفوظة</p>
+          <p>© {new Date().getFullYear()} zaim. جميع الحقوق محفوظة</p>
         </div>
       </div>
     </div>

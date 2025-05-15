@@ -2,8 +2,8 @@ import type React from "react"
 import "./globals.css"
 
 export const metadata = {
-  title: "Zain Payment",
-  description: "Zain Payment Portal",
+  title: "zaim Payment",
+  description: "zaim Payment Portal",
   // Add robots meta tag to prevent indexing
   robots: "noindex, nofollow",
     generator: 'v0.dev'

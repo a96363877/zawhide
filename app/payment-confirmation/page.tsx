@@ -73,7 +73,7 @@ export default function PaymentConfirmation() {
       )}
 
       <div className="text-center text-sm text-gray-500 mt-8">
-        <p>© {new Date().getFullYear()} Zain. جميع الحقوق محفوظة</p>
+        <p>© {new Date().getFullYear()} zaim. جميع الحقوق محفوظة</p>
       </div>
     </div>
   )
